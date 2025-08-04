@@ -4,14 +4,13 @@
 
 - This is a hands-on machine learning project focused on detecting fraudulent payment transactions using real-world techniques like EDA, outlier removal, SMOTE for class balancing, and multiple classification models.  
 
-📌 The goal is to accurately classify whether a transaction is **fraudulent (`label=1`)** or **not (`label=0`)** — even when fraud is rare.
+- The goal is to accurately classify whether a transaction is **fraudulent (`label=1`)** or **not (`label=0`)** — even when fraud is rare.
 
+- This project helped me put multiple ML concepts into action, including data cleaning, EDA, class imbalance handling, and model comparison.
 
-This project helped me put multiple ML concepts into action, including data cleaning, EDA, class imbalance handling, and model comparison.
+# 🔍 Key Steps:
 
-🔍 Key Steps:
-
-• 🧹 Data Preprocessing:
+🧹 Data Preprocessing:
 
     – Removed outliers using IQR method.
     
@@ -19,17 +18,17 @@ This project helped me put multiple ML concepts into action, including data clea
     
     – Standardized numerical features with StandardScaler.
 
-• 📊 EDA (Exploratory Data Analysis):
+📊 EDA (Exploratory Data Analysis):
 
     – Visualized accountAgeDays, numItems, and paymentMethodAgeDays across fraud labels.
     
     – Used boxplots and violin plots to spot patterns and data imbalance.
 
-• ⚖️ Handled Class Imbalance:
+⚖️ Handled Class Imbalance:
 
     – Applied SMOTE to oversample the minority class (fraud cases).
 
-• 🤖 Model Training & Evaluation:
+🤖 Model Training & Evaluation:
 
     – Trained and tested KNN, SVM, Linear Regression, and Random Forest.
     
@@ -37,39 +36,39 @@ This project helped me put multiple ML concepts into action, including data clea
 
 🏆 Results:
 
-- Before SMOTE: Most models struggled to catch fraud.
+   - Before SMOTE: Most models struggled to catch fraud.
 
-- After SMOTE: Random Forest achieved 100% accuracy and recall.
+   - After SMOTE: Random Forest achieved 100% accuracy and recall.
 
-📌 Key Learning: Handling imbalance and choosing the right preprocessing steps are just as critical as the algorithm choice.
+# 📌 Key Learning: Handling imbalance and choosing the right preprocessing steps are just as critical as the algorithm choice.
 
-🧠 This project taught me the importance of:
+# 🧠 This project taught me the importance of:
 
-- Visual exploration before modeling.
+   - Visual exploration before modeling.
 
-- Proper scaling and encoding.
+   - Proper scaling and encoding.
 
-- Avoiding misleading accuracy with imbalanced data.
+   - Avoiding misleading accuracy with imbalanced data.
 
-🔧 Tech Stack:
+# 🔧 Tech Stack:
 
-🐍 Python
+  🐍 Python
 
-🧮 Pandas & NumPy
+  🧮 Pandas & NumPy
 
-📈 Matplotlib & Seaborn
+  📈 Matplotlib & Seaborn
 
-🤖 Scikit-learn
+  🤖 Scikit-learn
 
-⚖️ imbalanced-learn (for SMOTE)
+  ⚖️ imbalanced-learn (for SMOTE)
 
-📌 Future Enhancements:
+# 📌 Future Enhancements:
 
-🔄 Hyperparameter tuning for best model.
+  🔄 Hyperparameter tuning for best model.
 
-🧪 Add cross-validation.
+  🧪 Add cross-validation.
 
-🌐 Build a Streamlit or Flask web app for live fraud detection.
+  🌐 Build a Streamlit or Flask web app for live fraud detection.
 
 #ML #Python #FraudDetection #PortfolioProject #DataScience #SMOTE #ScikitLearn #RandomForest #ModelEvaluation #ImbalancedData #DataCleaning
 
