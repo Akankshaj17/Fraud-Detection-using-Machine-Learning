@@ -40,7 +40,9 @@
 
    - After SMOTE: Random Forest achieved 100% accuracy and recall.
 
-# 📌 Key Learning: Handling imbalance and choosing the right preprocessing steps are just as critical as the algorithm choice.
+# 📌 Key Learning:
+
+   - Handling imbalance and choosing the right preprocessing steps are just as critical as the algorithm choice.
 
 # 🧠 This project taught me the importance of:
 
